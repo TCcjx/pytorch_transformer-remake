@@ -7,7 +7,11 @@
 
 # 整体文件架构
 decoder_blcok -> decoder
+
 encoder_block -> encoder
+
 emb -> 嵌入表示 + 位置信息
+
 dataset -> 构建词表 + de/en分词器
+
 config -> 全局配置信息，DEVICE的调用
